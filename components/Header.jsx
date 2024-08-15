@@ -29,7 +29,7 @@ function Header() {
       backgroundColor: "#52516580",
     },
     sunshineyFont: {
-      fontFamily: "'Sunshiney', cursive", // Apply Sunshiney font
+      fontFamily: "'Sunshiney', cursive",
     },
   };
 
