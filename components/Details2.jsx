@@ -39,7 +39,7 @@ function Details() {
       >
 
 <div>
-          <Image src="/images/chart-image2.png" width={500} height={500} />
+          <Image src="/images/chart-image2.png" width={500} height={500} alt="details phonet" />
         </div>
         <div>
           <div className="" style={{ width: "486.63px" }}>

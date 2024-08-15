@@ -60,7 +60,7 @@ function Details() {
         </div>
 
         <div>
-          <Image src="/images/chart-image.png" width={500} height={500} />
+          <Image src="/images/chart-image.png" width={500} height={500} alt="details phone" />
         </div>
       </div>
     </div>

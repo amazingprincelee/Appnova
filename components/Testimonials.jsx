@@ -6,37 +6,37 @@ function Testimonials() {
       name: 'Prof. Jude Okohue',
       title: 'CEO, Gynescope Specialist Hospital',
       text: 'Implementing Appnova\'s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care.',
-      image: '/path-to-image1.jpg',
+      
     },
     {
       name: 'Kingsley Offor',
       title: 'MD/CEO Kingsoo Group',
       text: 'Transitioning to Appnova\'s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records.',
-      image: '/path-to-image2.jpg',
+    
     },
     {
       name: 'Prof. Jude Okohue',
       title: 'CEO, Gynescope Specialist Hospital',
       text: 'Implementing Appnova\'s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care.',
-      image: '/path-to-image1.jpg',
+      
     },
     {
       name: 'Kingsley Offor',
       title: 'MD/CEO Kingsoo Group',
       text: 'Transitioning to Appnova\'s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records.',
-      image: '/path-to-image2.jpg',
+      
     },
     {
       name: 'Prof. Jude Okohue',
       title: 'CEO, Gynescope Specialist Hospital',
       text: 'Implementing Appnova\'s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care.',
-      image: '/path-to-image1.jpg',
+      
     },
     {
       name: 'Kingsley Offor',
-      title: 'MD/CEO Kingsoo Group',
-      text: 'Transitioning to Appnova\'s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records.',
-      image: '/path-to-image2.jpg',
+      title: 'CEO Kingsoo Group',
+      text: ' EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records.',
+      
     },
    
   ];
