@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function PromoSection() {
   return (
@@ -20,10 +21,12 @@ function PromoSection() {
 
         
         <div className="lg:w-1/2">
-          <img
-            src="/path-to-image.jpg" 
+          <Image
+            src="/images/vid-image.png" 
             alt="EMR Promotion"
             className="rounded-lg shadow-lg"
+            width={500}
+            height={500}
           />
         </div>
       </div>
