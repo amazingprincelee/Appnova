@@ -38,28 +38,28 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-4">Products</h3>
           <ul>
-            <li><a href="#" className="hover:underline">Novia Care</a></li>
-            <li><a href="#" className="hover:underline">Novia Book</a></li>
+            <li>Novia Care</li>
+            <li>Novia Book</li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-bold mb-4">Services</h3>
           <ul>
-            <li><a href="#" className="hover:underline">Enterprise Resource Planning</a></li>
-            <li><a href="#" className="hover:underline">Human Resource</a></li>
-            <li><a href="#" className="hover:underline">Inventory Management</a></li>
-            <li><a href="#" className="hover:underline">Ecommerce</a></li>
-            <li><a href="#" className="hover:underline">Electronic Medical Record</a></li>
-            <li><a href="#" className="hover:underline">Learning Management System</a></li>
+            <li>Enterprise Resource Planning</li>
+            <li>Human Resource</li>
+            <li>Inventory Management</li>
+            <li>Ecommerce</li>
+            <li>Electronic Medical Record</li>
+            <li>Learning Management System</li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-bold mb-4">Company</h3>
           <ul>
-            <li><a href="#" className="hover:underline">About Us</a></li>
-            <li><a href="#" className="hover:underline">Contact Us</a></li>
+            <li>About Us</li>
+            <li>Contact Us</li>
           </ul>
         </div>
 
