@@ -3,9 +3,8 @@ import Image from 'next/image';
 
 function PromoSection() {
   return (
-    <div >
-    <div className="bg-[#e0f7f7] py-12 px-6"  >
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between" style={{width:"900px"}}>
+    <div className="bg-[#e0f7f7] py-12 px-6">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
         
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -19,7 +18,6 @@ function PromoSection() {
           </button>
         </div>
 
-        
         <div className="lg:w-1/2">
           <Image
             src="/images/vid-image.png" 
@@ -30,7 +28,6 @@ function PromoSection() {
           />
         </div>
       </div>
-    </div>
     </div>
   );
 }
