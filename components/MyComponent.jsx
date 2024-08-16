@@ -1,11 +1,12 @@
 import * as React from "react";
+import Image from "next/image";
 
 function MyComponent() {
   return (
     <div className="flex overflow-hidden flex-col">
       <div className="flex flex-col w-full">
         <div className="relative flex flex-col pt-28 mt-0 w-full min-h-[745px] md:pt-24">
-          <img
+          <Image
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6a99c64e9812567df5dda0a988b0fccf4af0c38a44934bb6105b1a89fd27cd51?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
             className="absolute inset-0 object-cover w-full h-full"
@@ -32,19 +33,19 @@ function MyComponent() {
             </div>
             <div className="flex flex-wrap justify-center items-center gap-4 mt-5 max-w-full">
               <div className="flex gap-4 items-center">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9b8bf8a5a7131050477fc191b1ccd8138f20c2a23eaf0bb1f68dbe8cf69123c?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[41px] aspect-[0.98]"
                 />
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/a2676c2c9091c07967ee9e0fae946907e4e076f5445eb6978f5857c3e5050d91?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[116px] aspect-[8.26]"
                 />
               </div>
               <div className="flex gap-4 items-center text-2xl tracking-wider text-white whitespace-nowrap">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/2f4a9837ea2d1460da5253a736cb4a0d13604d3477fd3d61b238b9030214a1ed?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[41px] aspect-[0.98]"
@@ -52,19 +53,19 @@ function MyComponent() {
                 <div>GYNESCOPE</div>
               </div>
               <div className="flex gap-4 items-center">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/0d306a8d1fbb83229ed9914cfe7f34161dcb468ef315166b48e2af36014b1d41?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[42px] aspect-square"
                 />
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/f03714159de43cf2a62d969684e6d90f72cf46b47e909ff7484d7dbdfc39b7d0?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[115px] aspect-[8.2]"
                 />
               </div>
               <div className="flex gap-4 items-center text-2xl tracking-wider text-white whitespace-nowrap">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/e74df6a5975504639d43fd034598abc9eeb1a2ba8382c1815e1f9c1f079667c0?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[42px] aspect-square"
@@ -72,7 +73,7 @@ function MyComponent() {
                 <div>GYNESCOPE</div>
               </div>
               <div className="flex gap-4 items-center text-2xl tracking-wider whitespace-nowrap text-white text-opacity-90">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/b564034412db969ad72e3fb4ddaf64f81bfdba3b6fc5f13e0576a863b83003fc?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                   className="object-contain w-[41px] aspect-[0.98]"

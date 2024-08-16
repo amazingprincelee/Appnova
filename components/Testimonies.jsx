@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from 'next/image';
 
 function Testimonies() {
   return (
@@ -56,11 +57,14 @@ function Testimonies() {
           >
             <div className="flex flex-col justify-center w-full">
               <div className="flex gap-3 items-center">
-                <img
+                <Image
                   loading="lazy"
+                  src={testimonial.imageUrl}
                   srcSet={`${testimonial.imageUrl}?width=100 100w, ${testimonial.imageUrl}?width=200 200w, ${testimonial.imageUrl}?width=400 400w, ${testimonial.imageUrl}?width=800 800w`}
                   className="object-contain w-12 h-12 rounded-full"
                   alt={`${testimonial.name} photo`}
+                  width={48}
+                  height={48}
                 />
                 <div className="flex flex-col">
                   <div className="text-xl font-semibold">{testimonial.name}</div>

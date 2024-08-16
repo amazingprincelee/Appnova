@@ -1,9 +1,10 @@
 import * as React from "react";
+import Image from "next/image";
 
 function IntuitiveTech() {
   return (
     <div className="flex flex-col md:flex-row gap-10 justify-center items-center px-6 md:px-12">
-      <img
+      <Image
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/42aa6db30df5ce30ac0cd3af24e7cc6f88b3aff8262f8f2367bc992005b4f9a2?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
         className="object-contain rounded-none aspect-[1.76] w-full max-w-[500px] md:max-w-[787px]"

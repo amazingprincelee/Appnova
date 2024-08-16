@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 function TransformHealthCare() {
   return (
@@ -75,7 +76,7 @@ function TransformHealthCare() {
                     <div className="w-4 h-4 rounded-full bg-white bg-opacity-50" />
                     <div className="h-4 rounded-md bg-white bg-opacity-50 w-[102px]" />
                   </div>
-                  <img
+                  <Image
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af88d4bad5f3276bc040bdbf585e02e7d2b18cde07232e581ccc933401dfe0?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
                     className="object-contain mt-6 w-full rounded-3xl shadow-[-5px_5px_10px_rgba(230,230,230,0.2)]"
