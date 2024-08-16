@@ -20,7 +20,7 @@ function TransformHealthCare() {
             <div className="flex items-start gap-3">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/454b5241337a6841bd2fa15098edc196950a4ec6b5e77c080dcdd084bd3858fc?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
+                src="/images/icons/check.svg"
                 className="object-contain w-6 aspect-square"
               />
               <div className="flex-1">
@@ -31,7 +31,7 @@ function TransformHealthCare() {
             <div className="flex items-start gap-3">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/454b5241337a6841bd2fa15098edc196950a4ec6b5e77c080dcdd084bd3858fc?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
+                src="/images/icons/check.svg"
                 className="object-contain w-6 aspect-square"
               />
               <div className="flex-1">
@@ -77,7 +77,7 @@ function TransformHealthCare() {
                   </div>
                   <img
                     loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af88d4bad5f3276bc040bdbf585e02e7d2b18cde07232e581ccc933401dfe0?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
+                    src="/images/chart.svg"
                     className="object-contain mt-6 w-full rounded-3xl shadow-[-5px_5px_10px_rgba(230,230,230,0.2)]"
                   />
                 </div>
@@ -94,7 +94,7 @@ function TransformHealthCare() {
                             <div>1234</div>
                             <img
                               loading="lazy"
-                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c5a2eb0374f28d26adf707157fdaeadf9495cf4ca3d81fece196befa132c30e?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46"
+                              src="/images/icons/arrow.svg"
                               className="object-contain w-6 aspect-square"
                             />
                           </div>

@@ -10,10 +10,10 @@ const Nav = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-4 px-4 md:px-12">
         {/* Logo */}
         <div className="text-2xl font-semibold text-white leading-[36px] mb-4 md:mb-0">
-          <Link href="/">Appnova</Link>
+          <Link href="/">Appnovia</Link>
         </div>
 
-        {/* Navigation Links for larger screens */}
+        
         <ul className="hidden md:flex space-x-8 text-white">
           <li>
             <Link href="/">Home</Link>
@@ -45,7 +45,7 @@ const Nav = () => {
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
+        
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white focus:outline-none"
@@ -62,31 +62,31 @@ const Nav = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+    
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-[#070527] text-white`}>
         <ul className="space-y-4 p-4">
           <li>
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/products">Products</Link>
+            <Link href="#">Products</Link>
           </li>
           <li>
-            <Link href="/solutions">Solutions</Link>
+            <Link href="#">Solutions</Link>
           </li>
           <li>
-            <Link href="/services">Services</Link>
+            <Link href="#">Services</Link>
           </li>
           <li>
-            <Link href="/testimonies">Testimonies</Link>
+            <Link href="#">Testimonies</Link>
           </li>
           <li>
-            <Link href="/contact">Contact Us</Link>
+            <Link href="#">Contact Us</Link>
           </li>
         </ul>
         <div className="px-4 py-2">
           <Link
-            href="/get-started"
+            href="/"
             className="text-[#00C6C3] py-2 px-4 rounded-md border border-[#00C6C3]"
           >
             Get Started
@@ -94,7 +94,7 @@ const Nav = () => {
         </div>
       </div>
 
-      {/* Breadcrumb for smaller screens */}
+     
       <div className="md:hidden bg-[#070527] text-white p-4">
         <ul className="flex space-x-2 text-sm">
           <li>
