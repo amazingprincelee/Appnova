@@ -5,13 +5,15 @@ import Details2 from "@/components/Details2";
 import PromoSection from "@/components/PromoSection";
 import Footer from "@/components/Footer";
 import Services from "@/components/Services";
+import MyComponent from "@/components/MyComponent";
 
 
 export default function Home() {
   return (
     <div>
       <Nav />
-      <Header />
+      {/* <Header /> */}
+      <MyComponent />
       <Details />
       <Details2 />
       <PromoSection />

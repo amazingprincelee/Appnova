@@ -1,89 +1,46 @@
 import React from "react";
-import { FaBold, FaCrown, FaCompass } from 'react-icons/fa';
-
+import { FaBold, FaCrown, FaCompass } from "react-icons/fa";
 
 function Header() {
-  const customStyle = {
-    container: {
-      width: "876.5px",
-      height: "372.74px",
-      left: "126px",
-      gap: "40px",
-    },
-    marginLeft: "100px",
-    fontFamily: "Poppins",
-    fontWeight: "600",
-    textAlign: "left",
-    marginTop: "276px",
-    learnButton: {
-      width: "226px",
-      height: "60px",
-      lineHeight: "24px",
-      fontSize: "18px",
-      backgroundColor: "#00C6C3",
-      color: "black",
-    },
-    anotherDiv: {
-      marginTop: "170px",
-      height: "110px",
-      backgroundColor: "#52516580",
-    },
-    sunshineyFont: {
-      fontFamily: "'Sunshiney', cursive",
-    },
-  };
-
   return (
-    <div className="bg-[url('/images/bg-photo.png')] bg-cover bg-center h-[650px] text-white">
-      <div className="flex items-center justify-left" style={customStyle.container}>
-        <div className="font-sans" style={customStyle}>
-          <div>
-            <h1 style={{ fontSize: "48px" }}>Empower Your Business</h1>
-            <h1 style={{ fontSize: "48px" }}>
-              With Our <span style={{ color: "#00C6C3" }}>Software</span>
-            </h1>
-            <h1 style={{ fontSize: "48px" }}>Solutions</h1>
-          </div>
+    <div className="bg-[url('/images/bg-photo.png')] bg-cover bg-center h-[650px] flex items-center">
+      <div className="container mx-auto text-white px-6 lg:px-0">
+        <div className="max-w-lg">
+          <h1 className="text-4xl lg:text-6xl font-bold mb-4">
+            Empower Your Business
+          </h1>
+          <h1 className="text-4xl lg:text-6xl font-bold mb-4">
+            With Our <span className="text-secondary-color">Software</span>
+          </h1>
+          <h1 className="text-4xl lg:text-6xl font-bold mb-6">Solutions</h1>
 
-          <p
-            style={{
-              fontFamily: "18px",
-              lineHeight: "27px",
-              letter: "4%",
-              fontWeight: "400",
-              marginBottom: "20px",
-            }}
-          >
-            Simplify your operations with custom software <br /> designed to
-            solve your unique business challenges
+          <p className="text-lg lg:text-xl mb-8">
+            Simplify your operations with custom software <br />
+            designed to solve your unique business challenges.
           </p>
 
-          <button style={customStyle.learnButton}>Learn more</button>
+          <button className="learnButton transition transform hover:scale-105">
+            Learn more
+          </button>
         </div>
-      </div>
 
-      <div style={customStyle.anotherDiv}>
-        <p className="text-center p-3">Trusted by <span style={{color: "#00C6C3"}}>50+</span> Partners & Customers</p>
-        <div className="flex flex-wrap items-center justify-center gap-8 mt-3">
-          <div className="flex items-center">
-            <FaBold size={30} />
-            <span className="ml-2">BOURBON</span>
-          </div>
-          <div className="flex items-center">
-            <FaCompass size={30} />
-            <span className="ml-2">GYNESCOPE</span>
-          </div>
-          <div className="flex items-center">
-            <FaBold size={30} />
-            <span className="ml-2">BOURBON</span>
-          </div>
-          <div className="flex items-center">
-            <FaCompass size={30} />
-            <span className="ml-2">GYNESCOPE</span>
-          </div>
-          <div className="flex items-center">
-            <FaCrown size={30} />
-            <span className="ml-2">KingSoo</span>
+        <div className="mt-24 bg-gray-800 bg-opacity-60 p-6 rounded-lg">
+          <p className="text-center text-xl mb-4">
+            Trusted by <span className="font-bold text-secondary-color">50+</span> Partners & Customers
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-8 mt-3">
+            <div className="flex items-center">
+              <FaBold size={30} />
+              <span className="ml-2">BOURBON</span>
+            </div>
+            <div className="flex items-center">
+              <FaCompass size={30} />
+              <span className="ml-2">GYNESCOPE</span>
+            </div>
+            <div className="flex items-center">
+              <FaCrown size={30} />
+              <span className="ml-2">KingSoo</span>
+            </div>
           </div>
         </div>
       </div>

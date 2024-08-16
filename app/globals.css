@@ -1,37 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunshiney&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.learnButton {
+  width: 226px;
+height:  60px;
+padding: 18px 32px 18px 32px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.text-secondary-color {
+  color: #00c6c3;
+}
+
+/* Media Queries for responsive design can still be useful */
+
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 3rem;
+  }
+
+  .header-description {
+    font-size: 1.125rem;
+  }
+
+  .learnButton {
+    font-size: 18px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@media (min-width: 1024px) {
+  .header-title {
+    font-size: 4rem;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .header-description {
+    font-size: 1.25rem;
+  }
+
+  .learnButton {
+    font-size: 18px;
   }
 }
