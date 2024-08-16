@@ -102,7 +102,7 @@ const Nav = () => {
           </li>
           <li>&gt;</li>
           <li>
-            <Link href="/current-page">Current Page</Link>
+            <Link href="/">Current Page</Link>
           </li>
         </ul>
       </div>
