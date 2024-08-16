@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaLeaf } from 'react-icons/fa';
+import { FaBold, FaCrown, FaCompass } from 'react-icons/fa';
 
 
 function Header() {
@@ -64,12 +64,27 @@ function Header() {
 
       <div style={customStyle.anotherDiv}>
         <p className="text-center p-3">Trusted by <span style={{color: "#00C6C3"}}>50+</span> Partners & Customers</p>
-        <div className="flex items-center justify-center gap-[79px] mt-3">
-          <div>BOURBON</div>
-          <div style={customStyle.sunshineyFont}>GYNESCOPE</div>
-          <div className="flex justify-between"><FaTwitter size={30} /> BOURBON</div>
-          <div style={customStyle.sunshineyFont}>GYNESCOPE</div>
-          <div className="flex justify-between"><FaLeaf size={30} />KingSoo</div>
+        <div className="flex flex-wrap items-center justify-center gap-8 mt-3">
+          <div className="flex items-center">
+            <FaBold size={30} />
+            <span className="ml-2">BOURBON</span>
+          </div>
+          <div className="flex items-center">
+            <FaCompass size={30} />
+            <span className="ml-2">GYNESCOPE</span>
+          </div>
+          <div className="flex items-center">
+            <FaBold size={30} />
+            <span className="ml-2">BOURBON</span>
+          </div>
+          <div className="flex items-center">
+            <FaCompass size={30} />
+            <span className="ml-2">GYNESCOPE</span>
+          </div>
+          <div className="flex items-center">
+            <FaCrown size={30} />
+            <span className="ml-2">KingSoo</span>
+          </div>
         </div>
       </div>
     </div>
