@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaXing, FaFacebookF } from 'react-icons/fa';
+import { FaLinkedinIn, FaTwitter, FaFacebookF } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
               href="#"
               className="bg-white text-[#0a0a23] p-2 rounded-full hover:bg-[#0a0a23] hover:text-white transition-colors"
             >
-              <FaXing size={16} />
+              <FaTwitter size={16} />
             </a>
             <a
               href="#"

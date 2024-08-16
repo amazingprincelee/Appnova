@@ -6,8 +6,8 @@ function Services() {
       <div className="text-3xl font-semibold text-center text-zinc-900 max-w-full md:max-w-4xl">
         Unique Software Solutions for Your Businesses
       </div>
-      <div className="flex flex-col mt-10 gap-7 w-full max-w-4xl">
-        <div className="flex flex-wrap justify-center gap-7">
+      <div className="mt-10 w-full max-w-4xl">
+        <div className="grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
               title: "EMR Solutions",
@@ -42,7 +42,7 @@ function Services() {
           ].map((service, index) => (
             <div
               key={index}
-              className="flex flex-col justify-center px-6 py-7 bg-white rounded-3xl shadow-2xl w-full sm:w-[350px] lg:w-[387px]"
+              className="flex flex-col justify-center px-6 py-7 bg-white rounded-3xl shadow-2xl w-full"
             >
               <img
                 loading="lazy"
