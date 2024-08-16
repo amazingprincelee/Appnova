@@ -1,6 +1,5 @@
 import * as React from "react";
 
-
 function Testimonies() {
   return (
     <div className="flex flex-col items-center mt-20 px-4">
@@ -9,7 +8,7 @@ function Testimonies() {
           What Our Users Say About Us
         </div>
         <div className="text-base tracking-wider text-neutral-600 text-opacity-80">
-          These testimonials showcase Deximpli's dedication to driving innovation and excellence in our field.
+          These testimonials showcase Deximpli&apos;s dedication to driving innovation and excellence in our field.
         </div>
       </div>
       <div className="flex flex-wrap gap-5 mt-10 w-full text-neutral-600">
