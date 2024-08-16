@@ -18,37 +18,37 @@ function Testimonies() {
             name: "Kingsley Offor",
             title: "MD/CEO KIngsoo Group",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/053f8f3dc7bed554870bc40ccaf987eabb85ec3ad4f190d17bb8a1082110d494?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Transitioning to Appnovia's EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
+            testimonial: "Transitioning to Appnovia&apos;s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
           },
           {
             name: "Prof. Jude Okohue",
             title: "CEO, Gynescope Specialist Hospital",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/71211b6b076808a747c59da4e8db24b057de71ce3c97b3b2ec048c4fe7dd44fc?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Implementing Appnovia's EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
+            testimonial: "Implementing Appnovia&apos;s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
           },
           {
             name: "Kingsley Offor",
             title: "MD/CEO KIngsoo Group",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/a377991b0826d83057c27d132f950db23145e57571abdaf42bffc72eece5bfa8?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Transitioning to Appnovia's EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
+            testimonial: "Transitioning to Appnovia&apos;s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
           },
           {
             name: "Prof. Jude Okohue",
             title: "CEO, Gynescope Specialist Hospital",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/1d5a80dc676c44eb26c4b3975fe7b2860482bd12d4880a57203326b432bcbb9f?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Implementing Appnovia's EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
+            testimonial: "Implementing Appnovia&apos;s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
           },
           {
             name: "Kingsley Offor",
             title: "MD/CEO KIngsoo Group",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/ca046a62429c37a5d23bb1958ac42ad182f0ee37fd489e5948612e413e1fc012?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Transitioning to Appnovia's EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
+            testimonial: "Transitioning to Appnovia&apos;s EMR system has been a transformative experience for our hospital. The comprehensive features have truly revolutionized the way we manage medical records."
           },
           {
             name: "Prof. Jude Okohue",
             title: "CEO, Gynescope Specialist Hospital",
             imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/c2f788dc5182c808561afdbb8d0a315f235bfee8149d40ee1676ea55f7bb3846?placeholderIfAbsent=true&apiKey=774f1019adb54272942a62c15045ee46",
-            testimonial: "Implementing Appnovia's EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
+            testimonial: "Implementing Appnovia&apos;s EMR solutions has been a game-changer for our hospital. The integration of patient records, streamlined workflows, and user-friendly interface have significantly improved patient care."
           }
         ].map((testimonial, index) => (
           <div
